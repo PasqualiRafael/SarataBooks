@@ -1,0 +1,179 @@
+:root {
+    --clr-like: #002f52;
+}
+
+.menu-books {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    background-color: var(--clr-header);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-btn:checked ~ .container-menu > .container-img {
+    background-image: url("/img/Menu\ Aberto.png");
+}
+.container-btn:checked ~ .container-menu {
+    background: var(--bkg-link);
+}
+
+.container-img {
+    padding: 0.5em;
+}
+
+.list-menu {
+    display: none;
+    position: absolute;
+    width: 50vw;
+    top: 100%;
+}
+
+.container-btn {
+    display: none;
+}
+
+.container-btn:checked ~ .list-menu {
+    display: block;
+}
+
+.list-menu-title,
+.list-menu-item {
+    padding: 0.7em;
+    background-color: var(--clr-header);
+}
+
+.list-menu-title {
+    color: var(--clr-menu);
+    font-weight: 700;
+}
+
+.list-menu-link {
+    background: var(--bkg-link);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.sacola {
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    .container-title {
+        display: none;
+    }
+
+    .options {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-left: 2em;
+    }
+
+    .menu-books {
+        display: none;
+    }
+
+    .like-img-header {
+        display: none;
+    }
+
+    .container-title,
+    .container-title-strong {
+        font-family: var(--font-secondary);
+        font-size: 1.125em;
+        color: var(--clr-black);
+    }
+
+    .container-title {
+        font-weight: 400;
+    }
+
+    .container-title-strong {
+        font-weight: 700;
+    }
+
+    .options-nav {
+        display: none;
+    }
+
+    .options-nav:checked ~ .list-menu {
+        display: block;
+        width: auto;
+    }
+
+    .options-nav:checked ~ .opt-menu > .options-item {
+        color: var(--clr-header);
+        background: var(--bkg-link);
+    }
+
+    .list-menu-item:hover {
+        background: var(--bkg-link);
+        color: var(--clr-header);
+    }
+
+    .list-menu-item:hover > .list-menu-link {
+        -webkit-text-fill-color: var(--clr-header);
+    }
+
+    .options {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .options-item {
+        font-family: var(--font-primary);
+        font-size: 1em;
+        text-transform: uppercase;
+        list-style: none;
+        margin-top: 1.5em;
+        padding: 0.4em 1em 2em;
+        color: var(--clr-black);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .img-text {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .sacola {
+        display: block;
+        font-family: var(--font-primary);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--clr-black);
+    }
+
+    .tools-perfil {
+        margin-right: 1em;
+    }
+
+    .options {
+        margin-right: auto;
+        margin-left: 3em;
+    }
+}

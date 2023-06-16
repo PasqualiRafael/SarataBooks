@@ -1,0 +1,23 @@
+.like-btn {
+    display: none;
+}
+
+.like-img {
+    padding: 0.5em;
+}
+
+.like-btn-anima:checked + .like-img > svg > path {
+    animation: anima-fill;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anima-fill {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: var(--clr-like);
+        stroke: var(--clr-like);
+    }
+}

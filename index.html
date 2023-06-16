@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="shortcut icon" href="img/Logo.svg" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+        <title>SarataBooks</title>
+    </head>
+    <body>
+        <header class="menu-header">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container-btn" />
+                <label for="menu" class="container-menu">
+                    <span class="menu-books container-img"></span>
+                </label>
+                <ul class="list-menu">
+                    <li class="list-menu-title">Categorias</li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Programação</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Front-End</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Infraestrutura</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Business</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Design & Ux</a>
+                    </li>
+                </ul>
+                <picture>
+                    <img
+                        src="img/Logo.svg"
+                        alt="logo da alurabooks"
+                        class="container-img"
+                    />
+                </picture>
+                <h1 class="container-title"><b class="container-title-strong">Sarata</b>Books</h1>
+            </div>
+            
+            <div class="options">
+                <input type="checkbox" class="options-nav" id="opt-nav">
+                <label for="opt-nav" class="opt-menu">                    
+                    <li class="options-item">Categorias</li>                    
+                </label>
+                <ul class="list-menu">                                     
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Programação</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Front-End</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Infraestrutura</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Business</a>
+                    </li>
+                    <li class="list-menu-item">
+                        <a href="#" class="list-menu-link">Design & Ux</a>
+                    </li>
+                </ul>
+                <li class="options-item"><a href="#" class="options-link"></a>Favoritos</li>
+                <li class="options-item"><a href="#" class="options-link"></a>Minha estante</li>
+            </div>
+
+            <div class="container">
+                <input type="checkbox" id="like" class="like-btn like-btn-anima" />
+                <label for="like" class="like-img like-img-header">
+                    <svg
+                        width="50px"
+                        height="50px"
+                        viewBox="-12 -13 100 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                    >
+                        <path
+                            id="Path_1"
+                            data-name="Path 1"
+                            d="M117.606,280.375s22.263-15.459,31.959-30.318c9.6-14.708.354-31.054-10.533-33.8-14.457-3.65-21.426,10.478-21.426,10.478s-6.968-14.128-21.425-10.478c-10.888,2.748-20.132,19.094-10.534,33.8C95.343,264.916,117.606,280.375,117.606,280.375Z"
+                            transform="translate(-80.021 -214.131)"
+                            fill="currentColor"
+                            stroke="#002F52"
+                            stroke-linejoin="round"
+                            stroke-width="5"
+                        />
+                    </svg>
+                </label>
+                <!-- <svg
+                        width="51"
+                        height="48"
+                        viewBox="0 -3.71 75.17 75.17"
+                        viewBox="0 0 51 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M33.4087 8C30.3743 8 27.4621 9.41253 25.5613 11.6447C23.6604 9.41253 20.7482 8 17.7138 8C12.3427 8 8.12256 12.2202 8.12256 17.5913C8.12256 24.1831 14.0517 29.5542 23.0326 37.7155L25.5613 40L28.0899 37.6981C37.0708 29.5542 42.9999 24.1831 42.9999 17.5913C42.9999 12.2202 38.7798 8 33.4087 8ZM25.7356 35.1172L25.5613 35.2916L25.3869 35.1172C17.086 27.6011 11.6103 22.6311 11.6103 17.5913C11.6103 14.1035 14.2261 11.4877 17.7138 11.4877C20.3994 11.4877 23.0152 13.2142 23.9395 15.6033H27.2005C28.1073 13.2142 30.7231 11.4877 33.4087 11.4877C36.8964 11.4877 39.5122 14.1035 39.5122 17.5913C39.5122 22.6311 34.0365 27.6011 25.7356 35.1172Z"
+                            fill="currentColor"
+                        />
+                    </svg> -->
+                <!-- <img
+                        src="img/Favoritos.svg"
+                        alt="Meus Favoritos"
+                        class="container-img"
+                    /> -->
+                <a href="#" class="img-text"
+                    ><img
+                        src="img/Compras.svg"
+                        alt="Carrinho de compras"
+                        class="container-img"
+                />
+                <p class="sacola">Minha Sacola</p>
+            </a>
+                <a href="#" class="img-text"
+                    ><img
+                        src="img/Usuario.svg"
+                        alt="Meu perfil"
+                        class="container-img"
+                />
+                <p class="sacola tools-perfil">Meu perfil</p>
+            </a>            
+            </div>
+        </header>
+        <main>
+            <section class="banner">
+                <h2 class="banner-title">Já sabe por onde começar?</h2>
+                <p class="banner-text">
+                    Encontre em nossa estante o que precisa para seu
+                    desenvolvimento!
+                </p>
+                <input
+                    type="search"
+                    class="search"
+                    placeholder="Qual será sua próxima leitura?"
+                />
+            </section>
+            <section class="carousel">
+                <h2 class="carousel-title">Últimos Lançamentos</h2>
+                <!-- Slider main container -->
+                <div class="swiper-card">
+                    <div class="swiper sample-slider">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img
+                                    src="/img/Liderança.png"
+                                    alt="Livro liderança em design"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Acessibilidade.png"
+                                    alt="Livro acessibilidade na web"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Guia Front-end.png"
+                                    alt="Livro guia front-end"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/UX.png" alt="Livro ux estratégico" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Javascript.png"
+                                    alt="Livro javascript assertivo"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Gestao2.png"
+                                    alt="Livro gestão de produtos"
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>                
+
+                    <div class="card">
+                        <div class="card-description">
+                            <div class="description">
+                                <h3 class="description-title">
+                                    Talvez você também se interesse por...
+                                </h3>
+                                <h2 class="description-title-book">
+                                    Angular 11 e Firebase
+                                </h2>
+                                <p class="description-text">
+                                    Construindo uma aplicação integrada com a
+                                    plataforma do Google.
+                                </p>
+                            </div>
+                            <img
+                                src="img/Angular.png"
+                                alt="descrição imagem"
+                                class="angular-img"
+                            />
+                        </div>
+
+                        <div class="card-btn">
+                            <ul class="btn">
+                                <li class="btn-item">
+                                    <input type="checkbox" id="like-book" class="like-btn like-btn-anima" />
+                                    <label for="like-book" class="like-img">
+                                    <svg
+                                    width="50px"
+                                    height="50px"
+                                    viewBox="-12 -13 100 100"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                >
+                                    <path
+                                        id="Path_1"
+                                        data-name="Path 1"
+                                        d="M117.606,280.375s22.263-15.459,31.959-30.318c9.6-14.708.354-31.054-10.533-33.8-14.457-3.65-21.426,10.478-21.426,10.478s-6.968-14.128-21.425-10.478c-10.888,2.748-20.132,19.094-10.534,33.8C95.343,264.916,117.606,280.375,117.606,280.375Z"
+                                        transform="translate(-80.021 -214.131)"
+                                        fill="currentColor"
+                                        stroke="#002F52"
+                                        stroke-linejoin="round"
+                                        stroke-width="5"
+                                    />
+                                    <!-- <img
+                                        src="img/Favoritos.svg"
+                                        alt="favoritar livro"
+                                    /> -->
+                                </li>
+                                <li class="btn-item">
+                                    <img
+                                        src="img/Compras.svg"
+                                        alt="adicionar no carrinho"
+                                    />
+                                </li>
+                            </ul>
+                            <a href="#" class="btn-hook">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="carousel">
+                <h2 class="carousel-title">Mais Vendidos</h2>
+
+                <!-- Slider main container -->
+                <div class="swiper-card">
+                    <div class="swiper sample-slider">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img
+                                    src="/img/Liderança.png"
+                                    alt="Livro liderança em design"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Acessibilidade.png"
+                                    alt="Livro acessibilidade na web"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Guia Front-end.png"
+                                    alt="Livro guia front-end"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/UX.png" alt="Livro ux estratégico" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Javascript.png"
+                                    alt="Livro javascript assertivo"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="img/Gestao2.png"
+                                    alt="Livro gestão de produtos"
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-description">
+                            <div class="description">
+                                <img src="/img/Estrelinhas.png" alt="estrelas de avaliação" class="stars">
+                                <h3 class="description-title">
+                                    Autora do Mês
+                                </h3>
+                                <h2 class="description-title-book">
+                                    Juliana Agarikov
+                                </h2>
+                                <p class="description-text">
+                                    Analista de sistemas e escritora, Juliana é especialista em Front-End. 
+                                </p>
+                            </div>
+                            <img
+                                src="img/Perfil-escritora 1.png"
+                                alt="descrição imagem"
+                                class="angular-img"
+                            />
+                        </div>
+
+                        <div class="card-btn">
+                            <ul class="btn">
+                                <li class="btn-item">
+                                    <input type="checkbox" id="like-book2" class="like-btn like-btn-anima" />
+                                    <label for="like-book2" class="like-img">
+                                    <svg
+                                    width="50px"
+                                    height="50px"
+                                    viewBox="-12 -13 100 100"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                >
+                                    <path
+                                        id="Path_1"
+                                        data-name="Path 1"
+                                        d="M117.606,280.375s22.263-15.459,31.959-30.318c9.6-14.708.354-31.054-10.533-33.8-14.457-3.65-21.426,10.478-21.426,10.478s-6.968-14.128-21.425-10.478c-10.888,2.748-20.132,19.094-10.534,33.8C95.343,264.916,117.606,280.375,117.606,280.375Z"
+                                        transform="translate(-80.021 -214.131)"
+                                        fill="currentColor"
+                                        stroke="#002F52"
+                                        stroke-linejoin="round"
+                                        stroke-width="5"
+                                    />
+                                    <!-- <img
+                                        src="img/Favoritos.svg"
+                                        alt="favoritar livro"
+                                    /> -->
+                                </li>
+                                <li class="btn-item">
+                                    <img
+                                        src="img/Compras.svg"
+                                        alt="adicionar no carrinho"
+                                    />
+                                </li>
+                            </ul>
+                            <a href="#" class="btn-hook">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-footer">
+                <div class="banner banner-container container-footer-banner">
+                    <h2 class="banner-footer-title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+                    <div class="banner-btn">
+                        <a href="#" class="btn-footer">Android</a>                    
+                        <a href="#" class="btn-footer">Marketing Digital</a>
+                        <a href="#" class="btn-footer">Agile</a>
+                        <a href="#" class="btn-footer">Startups</a>
+                        <a href="#" class="btn-footer">HTML & CSS</a>
+                        <a href="#" class="btn-footer">Python</a>
+                        <a href="#" class="btn-footer">oo</a>
+                        <a href="#" class="btn-footer">Java</a>
+                    </div>
+                </div>
+                <div class="description-contact">
+                    <div>
+                        <h3 class="contact-title">Fique por dentro das novidades!</h3>
+                        <p class="description-text-footer">Atualizações de e-books, novos livros, promoções e outros.</p>
+                    </div>
+                    <input type="email" class="contact-email" id="email-label" placeholder="Cadastre seu e-mail">
+                    <label for="email-label"></label>
+                </div>
+            </section>            
+        </main>
+        <footer>            
+            <section class="footer-alura">
+                <h3 class="footer-text">Grupo Sarata</h3>
+                <ul class="footer-list">
+                    <li class="footer-title">EDUCAÇÂO</li>
+                    <li class="footer-items"><img src="/img/Caelum.png" alt="logo caelum"><a href="#" class="footer-items-link">Caelum</a></li>
+                    <li class="footer-items"><img src="/img/CasaDoCodigo.png" alt="logo casaDoCodigo"><a href="#" class="footer-items-link">Casa do Código</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-title">EDUCAÇÂO ONLINE</li>
+                    <li class="footer-items"><img src="/img/Alura.png" alt="logo Akasa"><a href="#" class="footer-items-link">Akasa</a></li>
+                    <li class="footer-items"><img src="/img/AluraEmpresas.png" alt="logo Akasa Para Empresas"><a href="#" class="footer-items-link">Akasa Para Empresas</a></li>
+                    <li class="footer-items"><img src="/img/AluraLatam.png" alt="logo AkasaLatam"><a href="#" class="footer-items-link">Akasa LATAM</a></li>
+                    <li class="footer-items"><img src="/img/AluraStart.png" alt="logo Akasa Start"><a href="#" class="footer-items-link">Akasa Start</a></li>
+                    <li class="footer-items"><img src="/img/MusicDot.png" alt="logo MusicDot"><a href="#" class="footer-items-link">MusicDot</a></li>
+                    <li class="footer-items"><img src="/img/AluraLingua.png" alt="logo Akasa Língua"><a href="#" class="footer-items-link">Akasa Língua</a></li>
+                    <li class="footer-items"><img src="/img/PM3.png" alt="logo PM3"><a href="#" class="footer-items-link">PM3</a></li>
+                </ul><ul class="footer-list">
+                    <li class="footer-title">COMUNIDADE</li>
+                    <li class="footer-items"><img src="/img/HipstersTech.png" alt="logo hipsterstech"><a href="#" class="footer-items-link">Hipsters ponto Tech</a></li>
+                    <li class="footer-items"><img src="/img/Scuba.png" alt="logo Scuba dev"><a href="#" class="footer-items-link">Scuba Dev</a></li>
+                    <li class="footer-items"><img src="/img/Layers.png" alt="logo Layers ponto Tech"><a href="#" class="footer-items-link">Layers ponto Tech</a></li>
+                    <li class="footer-items"><img src="/img/LikeABoss.png" alt="logo Like a boss"><a href="#" class="footer-items-link">Like a boss</a></li>
+                    <li class="footer-items"><img src="/img/CarreiraSemFronteira.png" alt="logo Carreira sem Fronteiras"><a href="#" class="footer-items-link">Carreira sem Fronteiras</a></li>
+                    <li class="footer-items"><img src="/img/HipstersJobs.png" alt="logo Hipstes ponto Jobs"><a href="#" class="footer-items-link">Hipstes ponto Jobs</a></li>
+                    <li class="footer-items"><img src="/img/GUJ.png" alt="logo GUJ"><a href="#" class="footer-items-link">GUJ</a></li>
+                </ul>
+            </section>            
+        </footer>
+        <script src="js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+                },
+            });
+        </script>
+    </body>
+</html>
