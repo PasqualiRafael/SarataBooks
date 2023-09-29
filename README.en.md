@@ -6,7 +6,7 @@
   💻<br>SarataBooks PureCSS
 </h1>
 
-![Initial project result](assets/img/preview_book.png)
+![Final project result](assets/img/preview_book.png)
 
 <h4 align="center"><a href="https://sarata-books.vercel.app/">Click to visit the project</a></h4>
 
