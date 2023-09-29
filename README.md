@@ -1,6 +1,6 @@
 # Multilanguage README Choose your language
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PasqualiRafael/SarataBooks/blob/main/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/SarataBooks)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PasqualiRafael/SarataBooks/blob/master/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/SarataBooks)
 
 <h1 align="center">
   💻<br>SarataBooks PureCSS
